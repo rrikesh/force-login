@@ -11,14 +11,14 @@
 
 class RR_ForceLogin{
 
-function __construct(){
+public function __construct(){
   add_action( 'template_redirect', array( $this, 'redirect_user_to_the_login_page' ) );
 }
 
 /**
  * Force users not logged in to the login page
  */
-function redirect_user_to_the_login_page() {
+public function redirect_user_to_the_login_page() {
   if ( !is_user_logged_in() ) {
     wp_redirect( wp_login_url(), 302 );
     exit;
