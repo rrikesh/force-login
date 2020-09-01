@@ -4,7 +4,7 @@
    Plugin name: RR Force Login
    Plugin URI: https://github.com/rrikesh/force-login
    Author: Rikesh Ramlochund
-   Author URI: http://rrike.sh
+   Author URI: https://rrikesh.com
    Description: Plugin that restricts access only to logged-in users. Can be used as a must-use plugin too.
    Version: 1.0
 */
